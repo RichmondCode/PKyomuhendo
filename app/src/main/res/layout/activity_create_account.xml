@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Bttnpk2"
+
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="#1C309F"
+        android:text="@string/sign_up1"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:textColorHint="#1C309F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/enter_your_email_address1"
+        android:inputType="textWebEmailAddress"
+        android:textColorHint="#1C309F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/re_enter_your_password"
+        android:inputType="textPassword"
+        android:textColorHint="#1C309F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_username"
+        android:inputType="text"
+        android:textColorHint="#1C309F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" /><![CDATA[
+
+    android:inputType="textPersonName"
+    tools:layout_editor_absoluteX="131dp"
+    tools:layout_editor_absoluteY="107dp" />
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/password5"
+        android:textColor="#1C309F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" /><![CDATA[
+
+
+    android:inputType="textPersonName"
+    tools:layout_editor_absoluteX="131dp"
+    tools:layout_editor_absoluteY="107dp" />
+
+    android:inputType="textPersonName"
+    tools:layout_editor_absoluteX="131dp"
+    tools:layout_editor_absoluteY="107dp" />
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/email2"
+        android:textColor="#1C309F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/re_enter_password"
+        android:textColor="#1C309F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/username"
+        android:textColor="#1C309F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+    android:inputType="textPersonName"
+    tools:layout_editor_absoluteX="131dp"
+    tools:layout_editor_absoluteY="107dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
